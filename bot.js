@@ -27,6 +27,7 @@ client.on('ready', () => {
   console.log('')
 });
  
+const FFMPEG = require('FFMPEG');
 const ytdl = require("ytdl-core");
 const { Client, Util } = require('discord.js');
 const getYoutubeID = require('get-youtube-id');
